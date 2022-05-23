@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+/* ======================================HOME============================================ */
+
+.kepala {
+    width: 1100px;
+    margin: 40px auto;
+    position: relative;
+    color: black;
+}
+
+.logo a {
+    font-size: 50px;
+    float: left;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: rgb(2, 48, 2);
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 50px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}   
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 10px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+ #home img {
+    width: 500px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: -20px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color:rgb(2, 48, 2);
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 50px;
+    color: rgb(2, 48, 2);
+}
+
+a.tombol {
+    background:rgb(2, 48, 2);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px 15px 12px 15px;
+    color: azure;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tombol:hover {
+    background: lightgreen;
+    text-decoration: none;
+    color: black;
+}
+
+a.pencet {
+    background:rgb(42, 210, 42);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 12px 15px 12px 15px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.pencet:hover {
+    background: rgb(1, 40, 1);
+    text-decoration: none;
+    color: white;
+}
+
+/*=========================================HOME===============================================*/
+  
+/* ======================================PENGUMUMAN============================================ */
+
+#pengumuman h3 {
+    color: black;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pengumuman1 h4 {
+    padding: 0px;
+}
+
+/* ======================================PENGUMUMAN============================================ */
+
+/* ======================================GALERI============================================ */
+
+.galeri5 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.galeri5 {
+    margin: 50px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-area: 25px;
+}
+
+.galeri5 img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 1px 2px 3px white;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+/* ======================================GALERI============================================ */
+
+/* ======================================KONTAK============================================ */
+
+.kontak8 {
+    width: 1100px;
+    height: 400px;
+    float: left;
+}
+
+.komentar {
+    width: 50%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    background-color: rgb(13, 57, 13);
+    border-radius: 10px;
+}
+
+.formlagi {
+    margin-left: 30px;
+    margin-top: 25px;
+}
+
+.formlagi label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.formlagi input {
+    width: 300px;
+    font-size: 15px;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+#kirim {
+    width: 80px;
+    display: block;
+    background-color: rgb(69, 181, 69);
+    padding: 6px;
+    color: black;
+    border-radius: 10px;
+    border-color: black;
+    margin-top: 7px;
+    font-weight: bold;
+}
+
+#kirim:hover {
+    background-color: rgb(3, 91, 41);
+    color: white;
+    cursor: pointer;
+    border-color: green;
+}
+
+.web {
+    width: 50%;
+    height: 400px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.web ul {
+    list-style-type: none;
+}
+
+.web img {
+    width: 60px;
+}
+
+.web ul li {
+    margin-left: 90px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.web ul li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.web ul li a:hover {
+    color: rgb(135, 175, 220);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.web li {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* ======================================KONTAK============================================ */
